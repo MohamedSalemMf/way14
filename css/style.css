@@ -1,9 +1,8 @@
 ﻿@import url('https://fonts.googleapis.com/css?family=Orbitron:400,500,700,900|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
 
-
 body {
   font-family: 'Roboto', sans-serif;
-  background: #383838 !important;
+  background: #323031 !important;
   overflow-y: hidden;
 }
 
@@ -1575,9 +1574,6 @@ ul.gallery-menu li.active,ul.gallery-menu li:hover{color:#ff9c0c;}
  color:#999;
 }
 
-
-
-
 /* ============= 15. About Us Page ============= */
 .about-area {
   display: block;
@@ -2566,7 +2562,6 @@ ul.gallery-menu li.active,ul.gallery-menu li:hover{color:#ff9c0c;}
   color: #ff9c0c;
 }
 
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .portfolio-details-info {
     margin-top: 50px;
@@ -2989,14 +2984,12 @@ ul.pstr_rating {
 
 
 /*Campaign*/
-.campaign {}
 .campaign .image {
 	display: block;
 }
 .campaign .image img {
 	width: 100%;
 }
-.campaign .content {}
 .campaign .content:not(:first-child) {
 	margin-top: 20px;
 }
@@ -3030,8 +3023,6 @@ ul.pstr_rating {
 	text-transform: uppercase;
 	margin: 6px 0px 15px 0px;
 }
-.campaign .content .title a {}
-.campaign .content p {}
 .campaign .content p:last-child {
 	margin-bottom: 0;
 }
@@ -3096,7 +3087,7 @@ ul.pstr_rating {
 .testimonial-slider-wrap {
 	border-bottom: 1px solid #ff9c0c;
 }
-.testimonial-slider .owl-nav {}
+
 .testimonial-slider .owl-nav > div {
 	position: absolute;
 	top: 50%;
@@ -3163,7 +3154,6 @@ ul.pstr_rating {
 }
 
 /*Brand*/
-.brand-slider {}
 .brand-slider .slick-dots {
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -3178,7 +3168,7 @@ ul.pstr_rating {
 	line-height: 1;
 	margin-top: 20px;
 }
-.brand-slider .slick-dots li {}
+
 .brand-slider .slick-dots li button {
 	text-indent: -9999px;
 	opacity: 1;
@@ -3194,7 +3184,7 @@ ul.pstr_rating {
 .brand-slider .slick-dots li.slick-active button {
 	background-color: #ff9c0c;
 }
-.brand-item {}
+
 .brand-item a {
 	display: block;
 }
@@ -3203,8 +3193,6 @@ ul.pstr_rating {
 }
 
 /*Gallery*/
-.gallery-slider {}
-.gallery-slider .owl-nav {}
 .gallery-slider .owl-nav > div {
 	position: absolute;
 	top: 50%;
@@ -3227,7 +3215,6 @@ ul.pstr_rating {
 .gallery-slider .owl-next {
 	right: 0;
 }
-.gallery-item {}
 .gallery-item img {
 	width: 100%;
 }
@@ -3244,7 +3231,7 @@ ul.pstr_rating {
 	    -ms-flex-align: center;
 	        align-items: center;
 }
-.brand-logo-carousel-2 .slick-track {}
+
 .brand-logo-item {
 	text-align: center;
 }
@@ -3255,8 +3242,6 @@ ul.pstr_rating {
 }
 
 /*Subscribe*/
-.campaign-subscribe-form {}
-.campaign-subscribe-form form {}
 .campaign-subscribe-form form .mc-form {
 	position: relative;
 }
@@ -3319,16 +3304,12 @@ ul.pstr_rating {
 }
 #scrollUp:hover{background:#000;}
 
-
-
 /* ============================================================================ */
-
 .Client{
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-
 
 .gallery-image img{
   width: 100%;
@@ -3337,34 +3318,22 @@ ul.pstr_rating {
   -webkit-transition:	all 2s;
   -o-transition:	all 2s;
   transition:	all 2s;
-
 }
-
 .ltr-center{
   direction: ltr;
   text-align: center;
 }
 
-
-
-
-
-
 /* ============================================================================ */
 /* nav */
 /* <!-- 23/11 --> */
-
 .nav-way{
-  background-color: #383838 ;
-
+  background-color: #323031 ;
   border-bottom: 1px solid #ff9c0c;
   padding: 0 !important;
-
 }
 .nav-way a {
-
   color: #999 !important;
-
   font-size: 14px !important;
   font-weight: 500 !important;
   padding: 12px 16px 12px 16px !important;
@@ -3376,17 +3345,12 @@ ul.pstr_rating {
 }
 
 .nav-way a:hover {
-
   color: #ff9c0c!important;
   /* border-bottom: 3px solid #ff9c0c; */
 }
 .nav-way a.activeLenk{
   color: #ff9c0c!important;
   /* border-bottom: 3px solid #ff9c0c; */
-}
-
-.nav-way a img{
-  /* width: 100px; */
 }
 
 .nav-link-rs{
@@ -3399,24 +3363,22 @@ ul.pstr_rating {
 .m-Einglish {
   margin-left: auto !important;
 }
-.navbar-toggler{
-  /* background-color: #000 !important; */
 
-}
 .navbar-toggler i {
   color: #ff9c0c !important;
   font-size: 2.50rem;
 }
 
-
-
-
-
 .navbar-light .navbar-toggler {
   color: rgba(0,0,0,.5);
   border-color: transparent !important;
-  }
+}
 
+.nav-way a img{
+  /* background-color: #00ADEF; */
+  width: 80px;
+  height: 70px;
+ } 
 
 /* ==================================================================================================================================================================== */
 /* header */
@@ -3428,9 +3390,7 @@ ul.pstr_rating {
   color:#ff9c0c;
 }
 
-
 .layer{
-
   background-color: rgba(0,0,0,0.7) !important;
   width: 100%;
   height: 100%;
