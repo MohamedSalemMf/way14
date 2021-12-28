@@ -9,7 +9,7 @@ body{
   body{
     /* background-color: #0E76A8 !important; */
     text-align: center !important;
-    overflow-y: hidden;
+    overflow-y: auto;
   }
 }
 *{
