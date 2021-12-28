@@ -1456,6 +1456,12 @@ ul.gallery-menu li.active,ul.gallery-menu li:hover{color:#ff9c0c;}
   position: absolute;
   width: 70px;
 }
+@media screen and (max-width:775px){	
+  .section-titel-contact h3::after {
+    display: none;
+  }
+}
+
 .contact-us-map {
   position: relative;
   margin-bottom:30px;
@@ -3822,12 +3828,12 @@ ul.pstr_rating {
   .section-titel {
     /* margin-bottom: 40px; */
     margin-left: 0;
-}
+  }
 }
 @media (max-width: 767px){
   .about-area .section-titel-contact {
     margin-bottom: 40px;
     margin-left: 0;
-}
+  }
 
 }
