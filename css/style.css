@@ -3733,6 +3733,7 @@ ul.pstr_rating {
   background-color: rgba(255, 156, 12,0.5);
   -webkit-transition: all 2s;
   transition: all 2s;
+  border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb:hover{
   background-color: #ff9c0c;
