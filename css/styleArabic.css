@@ -9,7 +9,7 @@ body{
   font-family: 'Cairo', sans-serif ;
 }
 h1 , h2, h3, h4,  h5, h6, p, div, span, a,button {
-  font-family: 'Cairo', sans-serif ;
+  font-family: 'Cairo', sans-serif !important;
 
 } 
 /* ============= 1. About Us ============= */
@@ -1574,13 +1574,16 @@ ul.gallery-menu li.active,ul.gallery-menu li:hover{color:#ff9c0c;}
 	border-radius: 0;
 	background: 0 0;
 	font-weight: 700;
-	padding: 12px 70px;
+	/* padding: 12px 70px; */
 	-webkit-transition: background .3s;
 	-o-transition: background .3s;
 	transition: background .3s;
 	width: 25%;
 	margin: 0 auto;
 	color: #ff9c0c;
+  text-align: center;
+  /* padding: 0 80px; */
+  font-size: 20px;
 }
 
 .form__submit:hover {
@@ -3597,7 +3600,7 @@ ul.pstr_rating {
           animation-delay:0.6s;	
   font-size: 60px;
   font-weight: 700;
-  font-family: 'Orbitron', sans-serif !important;
+  /* font-family: 'Orbitron', sans-serif !important; */
 }
 
 @media screen and (max-width:600px){						
